@@ -1,0 +1,44 @@
+// Agile //
+
+- Not to be defined as a methodology
+    * … is actually a set of principles and values
+    * a collection of beliefs used to guide decisions making when developing software
+
+- Agile Manifesto
+  * Left side matters more than right side of list
+  * Individuals and Interactions > Process n Tools
+  * Working software > Documentation
+
+- 12 Principles of Agile:
+(1)Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+(2)Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.
+(3)Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+(4)Business people and developers must work together daily throughout the project.
+(5)Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+(6)The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+(7)Working software is the primary measure of progress.
+(8)Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+(9)Continuous attention to technical excellence and good design enhances agility.
+(10)Simplicity–the art of maximizing the amount of work not done–is essential.
+(11)The best architectures, requirements, and designs emerge from self-organizing teams.
+(12)At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
+
+// Unit Testing //
+
+- A real purpose is not overwhelm myself from complex problems
+- Making sure each component is doing what you think it should be doing lmao
+
+// Git Syncing //
+
+// // // this is used we we are in collaboration projects. // // //
+-Repository URLS
+  * the URL setup: http://host/path/to/repo.git
+
+-Git Remote : allows us to connect to other repositories
+  * found in the .config file
+  * git remote add <name> <url> (whatever the URL is fr)
+  * -f option is a git fetch <name>
+  * Example: $ git remote add fake_test https://bitbucket.com/upstream_user/reponame.git; [remote "remote_test"]
+   url = https://bitbucket.com/upstream_user/reponame.git
+   fetch = +refs/heads/*:refs/remotes/remote_test/*
